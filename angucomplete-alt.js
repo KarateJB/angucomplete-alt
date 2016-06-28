@@ -779,6 +779,7 @@
       restrict: 'EA',
       require: '^?form',
       scope: {
+        searchStr: '=ngModel',
         selectedObject: '=',
         selectedObjectData: '=',
         disableInput: '=',
